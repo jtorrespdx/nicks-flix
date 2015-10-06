@@ -5,9 +5,9 @@ flix.config(function($stateProvider, $urlRouterProvider) {
     url:'',
     views:{
       'header': { templateUrl: 'partials/header.html' },
-      // 'home': {
-      //   templateUrl: 'partials/home.html',
-      // }
+      'home': {
+        templateUrl: 'partials/home.html',
+      }
     }
   })
 })
