@@ -9,5 +9,15 @@ flix.config(function($stateProvider, $urlRouterProvider) {
         templateUrl: 'partials/home.html',
       }
     }
+  });
+
+  $stateProvider.state('reviews', {
+    url: "/reviews/:id",
+    views: {
+      'header': {
+        templateUrl: "partials/header.html",
+        controller: "headersCtrl"
+      }
+    }
   })
-})
+});
