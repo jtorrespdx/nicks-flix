@@ -17,7 +17,15 @@ flix.config(function($stateProvider, $urlRouterProvider) {
       'header': {
         templateUrl: "partials/header.html",
         // controller: "headersCtrl"
+      },
+      'review': {
+        templateUrl: "partials/reviews.html",
+        controller: "ReviewsCtrl"
+      },
+      'review--right': {
+        templateUrl: "partials/review-main.html",
+        controller: "ReviewsCtrl"
       }
     }
-  })
+  });
 });
