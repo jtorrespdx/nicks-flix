@@ -8,6 +8,7 @@
     <script src="app.js"></script>
     <script src="controllers/ReviewsController.js"></script>
     <script src="services/MoviesFactory.js"></script>
+    <script src="services/UtilitiesFactory.js"></script>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
@@ -16,7 +17,8 @@
     <div class="container">
       <div ui-view="header"></div>
       <div ui-view="home"></div>
+      <div class="col-md-4" ui-view="reviews"></div>
+      <div class="col-md-6" ui-view="reviews-right"></div>
     </div>
-
   </body>
 </html>

@@ -18,11 +18,11 @@ flix.config(function($stateProvider, $urlRouterProvider) {
         templateUrl: "partials/header.html",
         // controller: "headersCtrl"
       },
-      'review': {
+      'reviews': {
         templateUrl: "partials/reviews.html",
         controller: "ReviewsCtrl"
       },
-      'review--right': {
+      'reviews-right': {
         templateUrl: "partials/review-main.html",
         controller: "ReviewsCtrl"
       }
