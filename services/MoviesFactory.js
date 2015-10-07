@@ -2,9 +2,19 @@ flix.factory('MoviesFactory', function MoviesFactory() {
   var factory = {};
   factory.reviews = [
     {
-      title: "aaa",
-      body: "bbb",
+      title: "Stranger Danger",
+      body: "Not the educational movie I thought this would be. Not for kids.",
       id: 1
+    },
+    {
+      title: "Upload Universe",
+      body: "A very art-house movie about a future where we live in a virtual world.",
+      id: 2
+    },
+    {
+      title: "16 Candles, again",
+      body: "Skip this remake. Terrible music too",
+      id: 3
     }
   ];
 
