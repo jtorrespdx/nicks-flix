@@ -16,7 +16,7 @@ flix.config(function($stateProvider, $urlRouterProvider) {
     views: {
       'header': {
         templateUrl: "partials/header.html",
-        controller: "headersCtrl"
+        // controller: "headersCtrl"
       }
     }
   })
